@@ -1,8 +1,16 @@
 # netxploit
+Athor Priyanshu Dewangan
 NetXpliot is a program shows you a demo of how to perform an exploitation and recursion of any network.
 📘PROJECT OVERVIEW Nmap for scanning and reconnaissance Metasploit for exploitation John the Ripper for password cracking
 🎯OBJECTIVES 🔍 Identify system vulnerabilities through simulated cyber-attacks 💡 Practice responsible ethical hacking techniques 🛠 Learn remediation strategies for discovered weaknesse
 🧰 Tools & Environment
+
+Tool	                 Purpose
+Kali Linux	          Attacking machine
+Metasploitable	      Vulnerable target machine
+Nmap	                Network and port scanning
+Metasploit Framework	Exploitation tool
+John the Ripper	      Password hash cracking
 
 Tool	Purpose
 Kali Linux	Attacking machine
@@ -27,6 +35,12 @@ adduser swapnil Result
 
 john hashes.txt john hashes.txt --show ✅ Cracked Password: hello
 🔹 Task 7: Remediation Recommendations
+
+Vulnerability	           Recommendation
+vsftpd 2.3.4	           Upgrade to version 3.0.5
+OpenSSH 4.7p1	           Upgrade to OpenSSH 9.6
+Java RMI	               Disable or restrict via firewall
+R Services	             Remove or disable deprecated services
 
 Vulnerability	Recommendation
 vsftpd 2.3.4	Upgrade to version 3.0.5
